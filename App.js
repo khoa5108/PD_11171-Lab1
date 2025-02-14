@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React, { useState, useCallback } from "react";
 import { View, Button, SafeAreaView, Text } from "react-native";
 import Bai1 from "./lab4/bai1";
@@ -53,6 +54,8 @@ const App = () => {
 
 export default App;
 =======
+=======
+>>>>>>> d093add9be074cd89a44f1de3bda15043d8b81fb
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
@@ -71,4 +74,7 @@ export default function App() {
     </NavigationContainer>
   );
 }
+<<<<<<< HEAD
 >>>>>>> 9aabece1d0ba8af2d46502ae9730f9bdad0f548d
+=======
+>>>>>>> d093add9be074cd89a44f1de3bda15043d8b81fb
