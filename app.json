@@ -1,5 +1,6 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "labb345678",
     "slug": "labb345678",
     "version": "1.0.0",
@@ -9,6 +10,17 @@
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/images/icon.png",
+=======
+    "name": "Assingment",
+    "slug": "Assingment",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+>>>>>>> 9aabece1d0ba8af2d46502ae9730f9bdad0f548d
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,15 +29,24 @@
     },
     "android": {
       "adaptiveIcon": {
+<<<<<<< HEAD
         "foregroundImage": "./assets/images/adaptive-icon.png",
+=======
+        "foregroundImage": "./assets/adaptive-icon.png",
+>>>>>>> 9aabece1d0ba8af2d46502ae9730f9bdad0f548d
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
+<<<<<<< HEAD
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
       "expo-font"
     ]
+=======
+      "favicon": "./assets/favicon.png"
+    }
+>>>>>>> 9aabece1d0ba8af2d46502ae9730f9bdad0f548d
   }
 }

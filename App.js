@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useCallback } from "react";
 import { View, Button, SafeAreaView, Text } from "react-native";
 import Bai1 from "./lab4/bai1";
@@ -51,3 +52,23 @@ const App = () => {
 };
 
 export default App;
+=======
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
+import LoginScreen from "./asm/LoginScreen";
+import RegisterScreen from "./asm/RegisterScreen";
+
+const Stack = createStackNavigator();
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Login">
+        <Stack.Screen name="Login" component={LoginScreen} />
+        <Stack.Screen name="Register" component={RegisterScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
+>>>>>>> 9aabece1d0ba8af2d46502ae9730f9bdad0f548d
