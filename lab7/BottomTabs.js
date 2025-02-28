@@ -1,8 +1,8 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { MaterialIcons } from "@expo/vector-icons";
-import TopTabs from "./TopTabs";
-import ProfileScreen from "./lab7/ProfileScreen";
+import TopTabs from "./TopTabs"; 
+import ProfileScreen from "./ProfileScreen";
 
 const Tab = createBottomTabNavigator();
 
